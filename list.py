@@ -12,17 +12,22 @@
 # isExistsKotlin="kotlin" in myList
 # print(isExistsKotlin)
 myColors=["red","blue","green","grey","yellow","orange",3.6]
-for color in myColors:
-    if type(color) == str:
-        print(f"the color is: {color}")
-    else:
-        print(f"{color} is not a color")
-print('-----------------------------------')
-index=0
-while index < len(myColors):
-    color=myColors[index]
-    if type(color) == str:
-        print(f"the color is: {color}")
-    else:
-        print(f"{color} is not a color")
-    index+=1
+# for color in myColors:
+#     if type(color) == str:
+#         print(f"the color is: {color}")
+#     else:
+#         print(f"{color} is not a color")
+# print('-----------------------------------')
+# index=0
+# while index < len(myColors):
+#     color=myColors[index]
+#     if type(color) == str:
+#         print(f"the color is: {color}")
+#     else:
+#         print(f"{color} is not a color")
+#     index+=1
+myCourses=["Python","Kotlin","Ionic"]
+myCourses.append("JQuery")
+myCourses.extend(["Jquery","Vue js"])
+myCourses.insert(1,"jquery")
+print(myCourses)
